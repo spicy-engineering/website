@@ -1,0 +1,13 @@
+main {
+  position: absolute;
+  top: 10rem;
+  bottom: 10rem;
+  left: 10rem;
+  right: 10rem;
+  color: white;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
