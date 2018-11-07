@@ -1,13 +1,19 @@
 main {
   position: absolute;
-  top: 10rem;
-  bottom: 10rem;
-  left: 10rem;
-  right: 10rem;
+  margin: 0;
+  padding: 0;
+  top: 1rem;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
   color: white;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.dimmed {
+  font-weight: normal;
 }
