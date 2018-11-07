@@ -28,7 +28,7 @@ class CirclesBackground extends CanvasComponent {
             radius: Math.random() * (20 + j * 10) * 2,
             color,
             alpha: Math.random() * 0.2 + (alpha - j * 0.1),
-            speed: speed * (1 + j * 0.5)
+            speed: speed * (1 + j * Math.random())
           }))
       )
       .reduce((acc, x) => acc.concat(x), []);

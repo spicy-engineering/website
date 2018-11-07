@@ -12,7 +12,7 @@ class LinesBackground extends CanvasComponent {
             y: Math.random() * height,
             width: Math.random() * (20 + j * 5) * 2,
             color,
-            speed: speed * (1 + j * 0.5)
+            speed: speed * (1 + j * Math.random())
           }))
       )
       .reduce((acc, curr) => acc.concat(curr), []);

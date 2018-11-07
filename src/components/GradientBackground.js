@@ -19,10 +19,8 @@ class GradientBackground extends CanvasComponent {
       );
       stops.forEach(stop => gradient.addColorStop(...stop));
 
-      if (index < gradients.length - 1) {
-        canvas.translate(width, 0);
-        canvas.scale(-1, 1);
-      }
+      canvas.translate(width, 0);
+      canvas.scale(-1, 1);
       canvas.beginPath();
       canvas.fillStyle = gradient;
       canvas.fillRect(0, 0, width, height);
