@@ -1,8 +1,8 @@
 import React from "react";
-import WindowSize from "../helpers/WindowSize";
-import GradientBackground from "./GradientBackground";
-import CirclesBackground from "./CirclesBackground";
-import LinesBackground from "./LinesBackground";
+import WindowSize from "../../helpers/WindowSize";
+import Gradient from "./Gradient";
+import Circles from "./Circles";
+import Lines from "./Lines";
 
 const gradients = [
   {
@@ -23,7 +23,7 @@ const FancyBackground = ({ width, height }) => (
   <WindowSize>
     {({ width, height }) => (
       <div style={{ position: "absolute", top: 0, left: 0, width, height }}>
-        <LinesBackground
+        <Lines
           width={width}
           height={height}
           amount={32}
@@ -33,7 +33,7 @@ const FancyBackground = ({ width, height }) => (
           angle={20}
           speed={0.3}
         />
-        <CirclesBackground
+        <Circles
           width={width}
           height={height}
           angle={20}
@@ -43,7 +43,7 @@ const FancyBackground = ({ width, height }) => (
           speed={0.3}
           alpha={0.3}
         />
-        <GradientBackground
+        <Gradient
           width={width}
           height={height}
           gradients={gradients}

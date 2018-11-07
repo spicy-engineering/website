@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import FancyBackground from "./components/FancyBackground";
+import Background from "./components/background";
 import MainContent from "./components/MainContent";
 import "./App.css";
 
@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-        <FancyBackground />
+        <Background />
         <MainContent />
       </Fragment>
     );

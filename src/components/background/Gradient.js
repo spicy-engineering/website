@@ -1,4 +1,4 @@
-import CanvasComponent from "../helpers/Canvas";
+import CanvasComponent from "../../helpers/Canvas";
 
 class GradientBackground extends CanvasComponent {
   initialFrame() {

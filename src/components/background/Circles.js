@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import CanvasComponent from "../helpers/Canvas";
+import CanvasComponent from "../../helpers/Canvas";
 
 class CirclesBackground extends CanvasComponent {
   static propTypes = {

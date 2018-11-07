@@ -1,6 +1,6 @@
-import CanvasComponent from "../helpers/Canvas";
+import CanvasComponent from "../../helpers/Canvas";
 
-class LinesBackground extends CanvasComponent {
+class Lines extends CanvasComponent {
   initialRender(canvas, { width, height, amount, layer, color, speed, angle }) {
     const lines = Array(amount / layer)
       .fill()
@@ -63,4 +63,4 @@ class LinesBackground extends CanvasComponent {
   }
 }
 
-export default LinesBackground;
+export default Lines;
