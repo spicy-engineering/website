@@ -17,3 +17,12 @@ main {
 .dimmed {
   font-weight: normal;
 }
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

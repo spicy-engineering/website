@@ -10,7 +10,12 @@ const MainContent = () => (
       Spicy
       <span className="dimmed">Engineering</span>
     </h1>
-    <p>Website coming soon</p>
+    <p>
+      <span role="img" aria-label="Email">
+        📨
+      </span>{" "}
+      <a href="mailto:enquiries@spicy.engineering">Enquiries</a>
+    </p>
   </main>
 );
 
